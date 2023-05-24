@@ -18,17 +18,4 @@ public class CricketCoach implements Coach{
         return "Practice fast bowling for 15mins !!!";
     }
 
-    // define our init method
-    @PostConstruct
-    public void doMyStartupStuff(){
-        System.out.println("In doMyStartupStuff() " + getClass().getSimpleName());
-    }
-
-    // define our destroy method
-    @PreDestroy
-    public void doMyCleanupStuff(){
-        System.out.println("In doMyCleanupStuff() " + getClass().getSimpleName());
-    }
-
-
 }
