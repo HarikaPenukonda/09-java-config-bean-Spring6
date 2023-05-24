@@ -10,7 +10,7 @@ import org.springframework.context.annotation.Configuration;
 public class SportConfig {
 
     // Define @Bean method to configure the bean
-    @Bean
+    @Bean("aquatic")
     public Coach swimCoach(){
         return new SwimCoach(); // returns instance of SwimCoach, The bean id defaults to the method name
     }
